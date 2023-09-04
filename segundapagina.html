@@ -1,0 +1,55 @@
+<!--Bruna Sousa Cabral RU: 4314897 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel = "stylesheet" href ="estilo.css">
+
+</head>
+<body>
+    <header>
+        <div class="container-logo"> <!-- Div - Container para o cabeçalho da página-->
+                <div class="texto"> <!-- Nome página-->
+                    <h1>Fundamentos de Desenvolvimento Web</h1>
+                </div>
+        </div>
+        <Div class="Menu"> <!-- Div Menu para o cabeçalho da página-->
+                <ul>
+                   <li> <a href="index.html"> Sobre Mim</a> </li>
+                   <li> <a href="terceirapagina.html"> Formação</a> </li>
+                   <li> <a href="primeirapagina.html"> Portfólio</a> </li>
+                   <li> <a href="segundapagina.html"> Contato </a> </li> 
+                </ul> 
+        </Div> 
+        </header>
+
+        <section> 
+    
+            <div class="textoum"> <!--Div para alinhar texto-->
+                <div class="textodois">
+                <H3> Contato</H3>
+               </div>
+            </div>
+            <!--Formulário para contato-->
+            <!-- Required para o preenchimento correto-->
+            <!-- Textarea Caixa de texto-->
+            <!-- Button Botão-->
+            <form 
+            
+            method="POST"
+            data-form
+          >
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required /> 
+            <label for="email">E-mail</label> 
+            <input type="email" name="email" id="email" required /> 
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>  
+            <button type="submit" data-button>Enviar</button> 
+          </form>
+       </section>
+</body>
+</html>

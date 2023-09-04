@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,500;1,200&display=swap'); /* importação de texto na página*/
+/*Bruna Sousa Cabral RU: 4314897 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+}
+body{ /* Designer para o Body corpo da Página*/
+    background-color:rgb(44, 38, 75);
+}
+header{ /* Designer Cabeçalho */
+    width: 100%;
+    background-color:rgb(21, 15, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-logo /* Designer para o logo*/{ 
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color:rgb(196, 168, 196);
+}
+.Menu li{ /* Designer para o Menu*/
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.Menu li a{ 
+    font-size: 20px;
+    color:rgb(196, 168, 196);
+    text-decoration: none; /* decoração de texto, tirar o sublinhado*/
+}
+
+section{ 
+    position: relative;
+    Width: 100%; 
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 38, 75);
+    justify-content: space-between;
+    overflow: hidden;
+    }
+
+.textoum{ /* Designer para o texto*/
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.textoum .textodois{ /* Designer para o texto*/
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.textoum .textodois h3{ /* Designer para o texto*/
+    color: floralwhite;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+.textoum .textodois .competencias, p, ul, li {
+    color: floralwhite; /* Cor para o texto*/
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    color: white;
+    background: #323644;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:hover,
+  input:focus,
+  textarea:hover,
+  textarea:focus {
+    outline: none;
+    border-color: #1d90f5;
+    box-shadow: 0 0 0 0.3125rem #26344a;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+    color: #84868f;
+  }
+  
+  textarea {
+    min-height: 12.5rem;
+    resize: vertical;
+  }
+  
+  button {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #1d90f5;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover,
+  button:focus {
+    outline: none;
+    background: #1c70d3;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background: #555b69;
+  }
+  
+  .success,
+  .error {
+    text-align: center;
+  }
+  
+  .success {
+    color: greenyellow;
+  }
+  
+  .error {
+    color: tomato;
+  }
+
+
